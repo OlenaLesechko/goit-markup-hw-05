@@ -59,8 +59,6 @@ margin: 0 auto;
     text-decoration: none;
 }
 
-
-
 .logo-header {
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
@@ -71,7 +69,7 @@ margin: 0 auto;
     text-transform: uppercase;
     text-decoration: none
 }
-   
+
 .logo {
     position: relative;
     color: #4D5AE5;
@@ -85,7 +83,7 @@ margin: 0 auto;
     margin-right: 76px;
 }
 .menu-item {
-   color: #2e2f42;
+    color: #2e2f42;
     padding: 24px 0;
 
 }
@@ -182,10 +180,10 @@ address {
 }
 .button:hover,
 .button:focus {
-   background-color:  #404BBF;
+    background-color:  #404BBF;
 }
 
-.visually-hidden {
+.visually-hidden { 
     position: absolute;
     width: 1px;
     height: 1px;
@@ -683,16 +681,6 @@ margin-bottom: 16px;
     letter-spacing: 0.04em;
 }
 
-.review-form-privacy-link {
-    color: #4D5AE5;
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
-    text-decoration-line: underline;
-}
-
 .review-form-checkbox {
     margin-bottom: 24px;
 }
@@ -714,13 +702,46 @@ margin-bottom: 16px;
 .review-form-checkbox-input:focus +.review-form-checkbox-label>.review-form-own-checkbox {
     border: 1px solid #4D5AE5;
 }
- 
+
+.review-form-privacy-link {
+    color: #4D5AE5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+
 .review-form-submit {
-    display: inline-flex;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
+    border: none;
     border-radius: 4px;
     background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-form-submit:focus,
+.review-form-submit:hover {
+    border-radius: 4px;
+    background: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
