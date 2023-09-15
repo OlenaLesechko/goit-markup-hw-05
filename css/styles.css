@@ -674,14 +674,53 @@ margin-bottom: 16px;
     color: rgba(46, 47, 66, 0.40);
 }
 
+.review-form-checkbox-label {
+    color: #8E8F99;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
+.review-form-privacy-link {
+    color: #4D5AE5;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+
+.review-form-checkbox {
+    margin-bottom: 24px;
+}
 .review-form-own-checkbox {
-    display: inline-block;
+    display: inline-flex;
     width: 16px;
     height: 16px;
+    margin-right: 8px;
     cursor: pointer;
+    fill: transparent;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.40);
 }
-.review-form-checkbox-input:checked + .review-form-checkbox-label {
+.review-form-checkbox-input:checked + .review-form-checkbox-label > .review-form-own-checkbox {
+    background-color: #404BBF;
+    fill:#F4F4FD;
+}
 
+.review-form-checkbox-input:focus +.review-form-checkbox-label>.review-form-own-checkbox {
+    border: 1px solid #4D5AE5;
+}
+ 
+.review-form-submit {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
