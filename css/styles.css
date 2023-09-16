@@ -571,9 +571,6 @@ address {
     letter-spacing: 0.04em;
 }
 
-.subscribe-form-button-svg {
-    position: relative;
-}
 .footer-button-subscribe {
     display: inline-flex;
     color: #FFFFFF;
