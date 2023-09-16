@@ -574,8 +574,9 @@ address {
 .footer-button-subscribe {
     display: inline-flex;
     color: #FFFFFF;
-    font-family: "Roboto", sans - serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
+    justify-content: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
@@ -603,6 +604,7 @@ address {
     
 .subscribe-footer-icon-frame {
     fill: #FFFFFF;
+    margin-left: 16px;
     position: absolute;
     top: 50%;
     right: 24px;
@@ -801,7 +803,6 @@ margin-bottom: 16px;
     border: none;
 }
 
-.review-form-checkbox-input:checked,
 .review-form-checkbox-input:focus + .review-form-checkbox-label > .review-form-own-checkbox {
     border: 1px solid #4D5AE5;
 }
