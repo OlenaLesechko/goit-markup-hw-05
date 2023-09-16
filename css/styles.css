@@ -802,10 +802,10 @@ margin-bottom: 16px;
     fill:#F4F4FD;
     border: none;
 }
-
+/*
 .review-form-checkbox-input:focus + .review-form-checkbox-label > .review-form-own-checkbox {
     border: 1px solid #4D5AE5;
-}
+}*/
 
 .review-form-privacy-link {
     color: #4D5AE5;
